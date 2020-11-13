@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-13T15:25:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">묵묵부담</title><subtitle>광고업계에서 숫자와 사람사이의 일을 고민합니다.</subtitle><author><name>윤정묵</name></author><entry><title type="html">2020년 11월 12일(목) TIL</title><link href="http://localhost:4000/til/TIL/" rel="alternate" type="text/html" title="2020년 11월 12일(목) TIL" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/til/TIL</id><content type="html" xml:base="http://localhost:4000/til/TIL/">&lt;h3 id=&quot;0-오늘-한-일&quot;&gt;0. 오늘 한 일&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Githubblog 내 Navigation 생성 &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Git 개념 학습 &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Git Reset 및 Revert 학습 &lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1-오늘의-삽질&quot;&gt;1. 오늘의 삽질&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;로컬이랑 원격저장소에서 커밋을 삭제했다 추가했다 하면서 page build가 안된다는 error mail을 10개나 받았다. &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;error: Merging is not possible because you have unmerged files.&lt;/li&gt;
+      &lt;li&gt;navigation.yml 파일에서 충돌이 발생해서 하나씩 수정하다가 커밋 추가가 안되기 시작했다.&lt;/li&gt;
+      &lt;li&gt;git reset과 revert 확인 후 일단은 reset으로 이슈 없었던 버전으로 돌려놓고 다시 작업을 했다.&lt;/li&gt;
+      &lt;li&gt;공동작업을 하는 경우에는 revert를 사용하는 것이 안전해보인다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;블로그 내 탭이 3개여야 하는데 1개만 나와서 한동안 찾았다. &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;navigation 타이틀 옆에 “-“ 를 붙여야하는 지 몰랐는데 붙이니까 해결됐다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;navigation 클릭 시 404 에러가 뜨면서 페이지 연결이 되지 않았다. &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;사실 어쩌다(?) 해결됐는데, 일단 naviagtion 파일의 url을 pages 폴더 md파일과 연결시켰고, permalink도 더블체크하였다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;2-회고&quot;&gt;2. 회고&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;개발 공부에 효과적일 것 같아 베어, 브런치, 티스토리르 두고 gitblog를 추가 생성했다. &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;통계시스템 등이 불편할 것 같긴한데, 조만간 GA랑 페이스북 설치해서 통계볼 예정이라 문제는 없을 듯. &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;여기서는 퍼포먼스마케팅과 광고, 개발공부일지 등을 쓰고 브런치는 계속 일상 이야기를 쓸 지 아니면 블로그를 합칠지 고민이 된다 &lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;3-내일-할-일&quot;&gt;3. 내일 할 일&lt;/h3&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;타이틀 옆 로고 추가&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;구글검색&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;GA, 페이스북 픽셀 연동&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;목차추가&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;링크, 마크다운 문법 공부&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Adsense 추가&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>윤정묵</name></author><category term="TIL" /><category term="TIL" /><summary type="html">github 블로그를 시작했다.</summary></entry></feed>

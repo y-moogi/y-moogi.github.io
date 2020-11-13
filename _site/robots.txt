@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+sitemap: https://y-moogi.github.io/sitemap.xml
