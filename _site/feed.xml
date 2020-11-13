@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-13T15:25:09+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">묵묵부담</title><subtitle>광고업계에서 숫자와 사람사이의 일을 고민합니다.</subtitle><author><name>윤정묵</name></author><entry><title type="html">2020년 11월 12일(목) TIL</title><link href="http://localhost:4000/til/TIL/" rel="alternate" type="text/html" title="2020년 11월 12일(목) TIL" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/til/TIL</id><content type="html" xml:base="http://localhost:4000/til/TIL/">&lt;h3 id=&quot;0-오늘-한-일&quot;&gt;0. 오늘 한 일&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-13T18:52:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">묵묵부담</title><subtitle>광고업계에서 숫자와 사람사이의 일을 고민합니다.</subtitle><author><name>윤정묵</name></author><entry><title type="html">2020년 11월 13일(목) TIL</title><link href="http://localhost:4000/til/TIL-201113/" rel="alternate" type="text/html" title="2020년 11월 13일(목) TIL" /><published>2020-11-13T00:00:00+09:00</published><updated>2020-11-13T00:00:00+09:00</updated><id>http://localhost:4000/til/TIL-201113</id><content type="html" xml:base="http://localhost:4000/til/TIL-201113/">&lt;h3 id=&quot;0-오늘-한-일&quot;&gt;0. 오늘 한 일&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;favicon 추가 &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;검색기능 추가 &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;마크다운 공부 &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Google Search Console 등록 &lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1-오늘의-삽질&quot;&gt;1. 오늘의 삽질&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Contribution Graph가 추가되지 않아 저장소를 다시 만들었다  &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;생각해보니 맨 처음 Jekyll Theme 등록할때 로컬저장소에 압축을 푸는 방식이 잘 안되어서 folk로 저장소에 가지고온뒤 이름을 바꿨다.&lt;/li&gt;
+      &lt;li&gt;문제가되었던 부분은 git push를 보낼때마다 계속 compare &amp;amp; pull request를 하라는 메시지가 떴는데, 들어가보면 비교할 내용이 없다 그러고 아주 난리었다.&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;p&gt;&lt;img width=&quot;777&quot; alt=&quot;There isn't anything to compare.&quot; src=&quot;https://user-images.githubusercontent.com/70500681/99056146-36a95800-25dd-11eb-851a-9c2ebad565b0.png&quot; /&gt; &lt;br /&gt;&lt;/p&gt;
+
+    &lt;ul&gt;
+      &lt;li&gt;살펴보니 저장소의 default branch가 main으로 되어있었고 나는 계속 master에 push를 하고 있었다.&lt;/li&gt;
+      &lt;li&gt;master branch를 확인하니 push한 내용들이 문제 없이 들어오고 있었다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;2-회고&quot;&gt;2. 회고&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;테마를 적용하니까 쉽고 빠르게 이쁜 페이지를 만들 수 있는 장점은 있는 것 같은데 내가 만든 파일이 아니다보니 무언가를 수정하는 데 시간이 좀 걸린다. &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;GA, 픽셀 부터 빠르게 추가하고 Adsense 등을 추가해봐야겠다. &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;블로그 포맷이 완성된다면 퍼포먼스광고이야기를 조금 쓰면서 소규모개발프로젝트나 자바스크립트 문제 풀이를… &lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;3-내일-할-일&quot;&gt;3. 내일 할 일&lt;/h3&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;GA, 페이스북 픽셀 연동&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Adsense 추가&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;타이틀 옆 로고 추가&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;구글검색&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;목차추가&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;링크, 마크다운 문법 공부&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>윤정묵</name></author><category term="TIL" /><category term="TIL" /><summary type="html">favicon 추가하고 구글서치콘솔을 등록했다.</summary></entry><entry><title type="html">2020년 11월 12일(목) TIL</title><link href="http://localhost:4000/til/TIL-201112/" rel="alternate" type="text/html" title="2020년 11월 12일(목) TIL" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/til/TIL-201112</id><content type="html" xml:base="http://localhost:4000/til/TIL-201112/">&lt;h3 id=&quot;0-오늘-한-일&quot;&gt;0. 오늘 한 일&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Githubblog 내 Navigation 생성 &lt;br /&gt;&lt;/li&gt;
   &lt;li&gt;Git 개념 학습 &lt;br /&gt;&lt;/li&gt;

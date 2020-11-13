@@ -9,8 +9,8 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>2020년 11월 12일(목) TIL &amp;#124 묵묵부담</title>
-<meta name="description" content="github 블로그를 시작했다.">
+<!-- begin _includes/seo.html --><title>2020년 11월 13일(목) TIL &amp;#124 묵묵부담</title>
+<meta name="description" content="favicon 추가하고 구글서치콘솔을 등록했다.">
 
 
   <meta name="author" content="윤정묵">
@@ -22,30 +22,30 @@
 <meta property="og:type" content="article">
 <meta property="og:locale" content="ko_KR">
 <meta property="og:site_name" content="묵묵부담">
-<meta property="og:title" content="2020년 11월 12일(목) TIL">
-<meta property="og:url" content="http://localhost:4000/til/TIL/">
+<meta property="og:title" content="2020년 11월 13일(목) TIL">
+<meta property="og:url" content="http://localhost:4000/til/TIL-201113/">
 
 
-  <meta property="og:description" content="github 블로그를 시작했다.">
-
-
-
-
-
-
-
-  <meta property="article:published_time" content="2020-11-12T00:00:00+09:00">
+  <meta property="og:description" content="favicon 추가하고 구글서치콘솔을 등록했다.">
 
 
 
 
 
-  
+
+
+  <meta property="article:published_time" content="2020-11-13T00:00:00+09:00">
+
+
+
+
 
   
 
+  
 
-<link rel="canonical" href="http://localhost:4000/til/TIL/">
+
+<link rel="canonical" href="http://localhost:4000/til/TIL-201113/">
 
 
 
@@ -211,7 +211,7 @@
     
       
       
-        <li class="current">2020년 11월 12일(목) TIL</li>
+        <li class="current">2020년 11월 13일(목) TIL</li>
       
     
   </ol>
@@ -346,15 +346,15 @@
 
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
-    <meta itemprop="headline" content="2020년 11월 12일(목) TIL">
-    <meta itemprop="description" content="github 블로그를 시작했다.">
-    <meta itemprop="datePublished" content="2020-11-12T00:00:00+09:00">
+    <meta itemprop="headline" content="2020년 11월 13일(목) TIL">
+    <meta itemprop="description" content="favicon 추가하고 구글서치콘솔을 등록했다.">
+    <meta itemprop="datePublished" content="2020-11-13T00:00:00+09:00">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 id="page-title" class="page__title" itemprop="headline">2020년 11월 12일(목) TIL
+          <h1 id="page-title" class="page__title" itemprop="headline">2020년 11월 13일(목) TIL
 </h1>
           
 
@@ -397,31 +397,27 @@
         
         <h3 id="0-오늘-한-일">0. 오늘 한 일</h3>
 <ul>
-  <li>Githubblog 내 Navigation 생성 <br /></li>
-  <li>Git 개념 학습 <br /></li>
-  <li>Git Reset 및 Revert 학습 <br /></li>
+  <li>favicon 추가 <br /></li>
+  <li>검색기능 추가 <br /></li>
+  <li>마크다운 공부 <br /></li>
+  <li>Google Search Console 등록 <br /></li>
 </ul>
 
 <hr />
 
 <h3 id="1-오늘의-삽질">1. 오늘의 삽질</h3>
 <ul>
-  <li>로컬이랑 원격저장소에서 커밋을 삭제했다 추가했다 하면서 page build가 안된다는 error mail을 10개나 받았다. <br />
+  <li>Contribution Graph가 추가되지 않아 저장소를 다시 만들었다  <br />
     <ul>
-      <li>error: Merging is not possible because you have unmerged files.</li>
-      <li>navigation.yml 파일에서 충돌이 발생해서 하나씩 수정하다가 커밋 추가가 안되기 시작했다.</li>
-      <li>git reset과 revert 확인 후 일단은 reset으로 이슈 없었던 버전으로 돌려놓고 다시 작업을 했다.</li>
-      <li>공동작업을 하는 경우에는 revert를 사용하는 것이 안전해보인다.</li>
+      <li>생각해보니 맨 처음 Jekyll Theme 등록할때 로컬저장소에 압축을 푸는 방식이 잘 안되어서 folk로 저장소에 가지고온뒤 이름을 바꿨다.</li>
+      <li>문제가되었던 부분은 git push를 보낼때마다 계속 compare &amp; pull request를 하라는 메시지가 떴는데, 들어가보면 비교할 내용이 없다 그러고 아주 난리었다.</li>
     </ul>
-  </li>
-  <li>블로그 내 탭이 3개여야 하는데 1개만 나와서 한동안 찾았다. <br />
+
+    <p><img width="777" alt="There isn't anything to compare." src="https://user-images.githubusercontent.com/70500681/99056146-36a95800-25dd-11eb-851a-9c2ebad565b0.png" /> <br /></p>
+
     <ul>
-      <li>navigation 타이틀 옆에 “-“ 를 붙여야하는 지 몰랐는데 붙이니까 해결됐다.</li>
-    </ul>
-  </li>
-  <li>navigation 클릭 시 404 에러가 뜨면서 페이지 연결이 되지 않았다. <br />
-    <ul>
-      <li>사실 어쩌다(?) 해결됐는데, 일단 naviagtion 파일의 url을 pages 폴더 md파일과 연결시켰고, permalink도 더블체크하였다.</li>
+      <li>살펴보니 저장소의 default branch가 main으로 되어있었고 나는 계속 master에 push를 하고 있었다.</li>
+      <li>master branch를 확인하니 push한 내용들이 문제 없이 들어오고 있었다.</li>
     </ul>
   </li>
 </ul>
@@ -429,21 +425,22 @@
 <hr />
 <h3 id="2-회고">2. 회고</h3>
 <ul>
-  <li>개발 공부에 효과적일 것 같아 베어, 브런치, 티스토리르 두고 gitblog를 추가 생성했다. <br /></li>
-  <li>통계시스템 등이 불편할 것 같긴한데, 조만간 GA랑 페이스북 설치해서 통계볼 예정이라 문제는 없을 듯. <br /></li>
-  <li>여기서는 퍼포먼스마케팅과 광고, 개발공부일지 등을 쓰고 브런치는 계속 일상 이야기를 쓸 지 아니면 블로그를 합칠지 고민이 된다 <br /></li>
+  <li>테마를 적용하니까 쉽고 빠르게 이쁜 페이지를 만들 수 있는 장점은 있는 것 같은데 내가 만든 파일이 아니다보니 무언가를 수정하는 데 시간이 좀 걸린다. <br /></li>
+  <li>GA, 픽셀 부터 빠르게 추가하고 Adsense 등을 추가해봐야겠다. <br /></li>
+  <li>블로그 포맷이 완성된다면 퍼포먼스광고이야기를 조금 쓰면서 소규모개발프로젝트나 자바스크립트 문제 풀이를… <br /></li>
 </ul>
 
 <hr />
 <h3 id="3-내일-할-일">3. 내일 할 일</h3>
 <ul class="task-list">
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />타이틀 옆 로고 추가</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />구글검색</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />GA, 페이스북 픽셀 연동</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />목차추가</li>
-  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />링크, 마크다운 문법 공부</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />Adsense 추가</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />타이틀 옆 로고 추가</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />구글검색</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />목차추가</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />링크, 마크다운 문법 공부</li>
 </ul>
+
 
         
       </section>
@@ -492,7 +489,7 @@
 
 
         
-  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2020-11-12T00:00:00+09:00">November 12, 2020</time></p>
+  <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> 업데이트:</strong> <time datetime="2020-11-13T00:00:00+09:00">November 13, 2020</time></p>
 
 
       </footer>
@@ -502,15 +499,25 @@
     <h4 class="page__share-title">공유하기</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=2020%EB%85%84+11%EC%9B%94+12%EC%9D%BC%28%EB%AA%A9%29+TIL%20http%3A%2F%2Flocalhost%3A4000%2Ftil%2FTIL%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=2020%EB%85%84+11%EC%9B%94+13%EC%9D%BC%28%EB%AA%A9%29+TIL%20http%3A%2F%2Flocalhost%3A4000%2Ftil%2FTIL-201113%2F" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftil%2FTIL%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Flocalhost%3A4000%2Ftil%2FTIL-201113%2F" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Ftil%2FTIL%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Flocalhost%3A4000%2Ftil%2FTIL-201113%2F" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="공유하기 LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
 
       
+  <nav class="pagination">
+    
+      <a href="/til/TIL-201112/" class="pagination--pager" title="2020년 11월 12일(목) TIL
+">이전</a>
+    
+    
+      <a href="#" class="pagination--pager disabled">다음</a>
+    
+  </nav>
+
     </div>
 
     
@@ -523,9 +530,48 @@
       <div class="grid__wrapper">
         
           
-            
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/til/TIL-201112/" rel="permalink">2020년 11월 12일(목) TIL
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">github 블로그를 시작했다.
+</p>
+  </article>
+</div>
+
+        
       </div>
     </div>
+  
   
 </div>
 
