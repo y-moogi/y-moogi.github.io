@@ -31,8 +31,8 @@ breadcrumbs              : true # true, false (default)
 words_per_minute         : 200 #포스트 읽는 데 걸리는 시간을 파악하기 위한 용도
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
-  disqus: "y-moogi"
-    shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+  disqus: 
+    shortname            : y-moogi # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
