@@ -95,7 +95,7 @@ analytics:
 author:
   name             : "윤정묵"
   avatar           : "/assets/images/profile/profile_1.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "개발자아님"
+  bio              : "광고업계에서 숫자와 사람사이의 일을 고민합니다."
   location         : "Seoul, Korea"
   # email            : "jungmook.y@gmail.com"
   links:
