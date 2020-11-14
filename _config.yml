@@ -17,7 +17,7 @@ minimal_mistakes_skin    : "default" # "default", "air", "aqua", "contrast", "da
 # Site Settings
 locale                   : "ko-KR"
 title                    : "묵묵부담"
-title_separator          : "&#124"
+title_separator          : "-"
 subtitle                 : "version 1.0" # site tagline that appears below site title in masthead
 name                     : "Jungmook Youn"
 description              : "광고업계에서 숫자와 사람사이의 일을 고민합니다."
