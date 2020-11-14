@@ -20,7 +20,3 @@
     <div itemprop="text">{{ include.message | markdownify }}</div>
   </div>
 </article>
-
-{% if page.comments != 'no' %}
-<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-width="100%"></div>
-{% endif %}
