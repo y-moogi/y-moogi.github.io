@@ -16,4 +16,25 @@
          src="https://www.facebook.com/tr?id=306178497342208&ev=PageView&noscript=1"/>
   </noscript>
 
+  <script>
+    function fbqSearchKeyword() {
+      var uri = document.referrer;
+      if (!uri) return;
+      var link = document.createElement('a');
+      link.setAttribute('href', uri);
+      var pattern = new RegExp('[\\?&](?:utm_term|n_keyword|q|query)=([^&#]*)');
+      var query = link.search.match(pattern);
+      if (query && query.length > 0) {
+        var keyword = query[1].replace(/\+/gi, "%20");
+      }
+      if (keyword) {
+        fbq('trackCustom', 'SearchKeyword', {
+          hostname: link.hostname,
+          search_string: decodeURIComponent(keyword),
+        });
+    } 
+    }	
+    fbqSearchKeyword();
+    </script>    
+
   <!-- End Facebook Pixel Code -->
