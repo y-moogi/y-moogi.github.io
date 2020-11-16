@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-13T18:52:00+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">묵묵부담</title><subtitle>광고업계에서 숫자와 사람사이의 일을 고민합니다.</subtitle><author><name>윤정묵</name></author><entry><title type="html">2020년 11월 13일(목) TIL</title><link href="http://localhost:4000/til/TIL-201113/" rel="alternate" type="text/html" title="2020년 11월 13일(목) TIL" /><published>2020-11-13T00:00:00+09:00</published><updated>2020-11-13T00:00:00+09:00</updated><id>http://localhost:4000/til/TIL-201113</id><content type="html" xml:base="http://localhost:4000/til/TIL-201113/">&lt;h3 id=&quot;0-오늘-한-일&quot;&gt;0. 오늘 한 일&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.1.1">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-11-16T11:18:21+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">묵묵부담</title><subtitle>광고업계에서 숫자와 사람사이의 일을 고민합니다.</subtitle><author><name>윤정묵</name></author><entry><title type="html">2020년 11월 14일(토) TIL</title><link href="http://localhost:4000/til/TIL-20201114/" rel="alternate" type="text/html" title="2020년 11월 14일(토) TIL" /><published>2020-11-14T00:00:00+09:00</published><updated>2020-11-14T00:00:00+09:00</updated><id>http://localhost:4000/til/TIL-20201114</id><content type="html" xml:base="http://localhost:4000/til/TIL-20201114/">&lt;h3 id=&quot;0-오늘-한-일&quot;&gt;0. 오늘 한 일&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;포스팅 URL 수정 &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;댓글 추가 &lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;1-오늘의-삽질&quot;&gt;1. 오늘의 삽질&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;포스팅에서 이전/다음 버튼이 정상적으로 구현되지 않는 것을 발견했다.  &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;살펴보니, 포스팅을 눌렀을 때 파일명까지 로드되지 않고 폴더명까지만 로드되는 것을 확인했다.&lt;/li&gt;
+      &lt;li&gt;Jekyll 블로그 양식대로 파일명이 되어있지 않아 양식대로 1차 수정을 했으나 여전히 같은 문제가 발생했다.&lt;/li&gt;
+      &lt;li&gt;_posts 폴더에 다른 폴더를 추가한 뒤 다시 로드해보니 정상적으로 파일명까지 로드되었다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;2-회고&quot;&gt;2. 회고&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;어제부터 잡고 있던 부분이 수정되니 다행인데 문제점을 발견하고 수정한 것이 아니라 갑자기 수정이 된거라 찝찝하다. &lt;br /&gt;&lt;/li&gt;
+  &lt;li&gt;Disqus를 활용해 댓글을 달았는데 한글 ver이 없어서 조금 엉성한 느낌이 든다.  &lt;br /&gt;
+    &lt;ul&gt;
+      &lt;li&gt;페이스북도 app id를 연결하면 댓글기능을 사용할 수 있을 것 같은데 한번 확인해봐야겠다.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;3-내일-할-일&quot;&gt;3. 내일 할 일&lt;/h3&gt;
+&lt;ul class=&quot;task-list&quot;&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;GA, 페이스북 픽셀 연동&lt;/li&gt;
+  &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; /&gt;Adsense 추가&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>윤정묵</name></author><category term="TIL" /><category term="TIL" /><summary type="html">포스팅 URL 수정 및 댓글 추가.</summary></entry><entry><title type="html">2020년 11월 13일(금) TIL</title><link href="http://localhost:4000/til/TIL-20201113/" rel="alternate" type="text/html" title="2020년 11월 13일(금) TIL" /><published>2020-11-13T00:00:00+09:00</published><updated>2020-11-13T00:00:00+09:00</updated><id>http://localhost:4000/til/TIL-20201113</id><content type="html" xml:base="http://localhost:4000/til/TIL-20201113/">&lt;h3 id=&quot;0-오늘-한-일&quot;&gt;0. 오늘 한 일&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;favicon 추가 &lt;br /&gt;&lt;/li&gt;
   &lt;li&gt;검색기능 추가 &lt;br /&gt;&lt;/li&gt;
@@ -42,7 +77,7 @@
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;구글검색&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;목차추가&lt;/li&gt;
   &lt;li class=&quot;task-list-item&quot;&gt;&lt;input type=&quot;checkbox&quot; class=&quot;task-list-item-checkbox&quot; disabled=&quot;disabled&quot; checked=&quot;checked&quot; /&gt;링크, 마크다운 문법 공부&lt;/li&gt;
-&lt;/ul&gt;</content><author><name>윤정묵</name></author><category term="TIL" /><category term="TIL" /><summary type="html">favicon 추가하고 구글서치콘솔을 등록했다.</summary></entry><entry><title type="html">2020년 11월 12일(목) TIL</title><link href="http://localhost:4000/til/TIL-201112/" rel="alternate" type="text/html" title="2020년 11월 12일(목) TIL" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/til/TIL-201112</id><content type="html" xml:base="http://localhost:4000/til/TIL-201112/">&lt;h3 id=&quot;0-오늘-한-일&quot;&gt;0. 오늘 한 일&lt;/h3&gt;
+&lt;/ul&gt;</content><author><name>윤정묵</name></author><category term="TIL" /><category term="TIL" /><summary type="html">favicon 추가하고 구글서치콘솔을 등록했다.</summary></entry><entry><title type="html">2020년 11월 12일(목) TIL</title><link href="http://localhost:4000/til/TIL-20201112/" rel="alternate" type="text/html" title="2020년 11월 12일(목) TIL" /><published>2020-11-12T00:00:00+09:00</published><updated>2020-11-12T00:00:00+09:00</updated><id>http://localhost:4000/til/TIL-20201112</id><content type="html" xml:base="http://localhost:4000/til/TIL-20201112/">&lt;h3 id=&quot;0-오늘-한-일&quot;&gt;0. 오늘 한 일&lt;/h3&gt;
 &lt;ul&gt;
   &lt;li&gt;Githubblog 내 Navigation 생성 &lt;br /&gt;&lt;/li&gt;
   &lt;li&gt;Git 개념 학습 &lt;br /&gt;&lt;/li&gt;
