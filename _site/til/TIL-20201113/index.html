@@ -1,4 +1,5 @@
 <!doctype html>
+<!-- © 2020 Jungmook Youn. Powered by Jekyll & Minimal Mistakes-->
 <!--
   Minimal Mistakes Jekyll Theme 4.21.0 by Michael Rose
   Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
@@ -8,6 +9,7 @@
 <html lang="ko" class="no-js">
   <head>
     <meta charset="utf-8">
+<meta name="google-site-verification" content="hadEEHEIxU4SHI1dAeGjZIOxXEztog8lwO3UAH-jgoQ" />
 
 <!-- begin _includes/seo.html --><title>2020년 11월 13일(금) TIL - 묵묵부담</title>
 <meta name="description" content="favicon 추가하고 구글서치콘솔을 등록했다.">
@@ -116,6 +118,53 @@
 <![endif]-->
 
 
+
+<!-- Facebook Pixel Code -->
+<script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '306178497342208');
+  fbq('track', 'PageView');
+</script>
+<script>
+  function fbqSearchKeyword() {
+    var uri = document.referrer;
+    if (!uri) return;
+    var link = document.createElement('a');
+    link.setAttribute('href', uri);
+    var pattern = new RegExp('[\\?&](?:utm_term|n_keyword|q|query)=([^&#]*)');
+    var query = link.search.match(pattern);
+    if (query && query.length > 0) {
+      var keyword = query[1].replace(/\+/gi, "%20");
+    }
+    if (keyword) {
+      fbq('trackCustom', 'SearchKeyword', {
+        hostname: link.hostname,
+        search_string: decodeURIComponent(keyword),
+      });
+  } 
+  }	
+  fbqSearchKeyword();
+  </script>
+  
+<noscript>
+  <img height="1" width="1" style="display:none" 
+       src="https://www.facebook.com/tr?id=306178497342208&ev=PageView&noscript=1"/>
+</noscript>
+<!-- End Facebook Pixel Code -->
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T34TBLD');</script>
+  <!-- End Google Tag Manager -->
     <!-- start custom head snippets -->
 
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
@@ -125,6 +174,10 @@
   </head>
 
   <body class="layout--single">
+    <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T34TBLD"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
     <nav class="skip-links">
   <h2 class="screen-reader-text">Skip links</h2>
   <ul>
@@ -157,7 +210,7 @@
               <a href="/year-archive/">연도별 포스트</a>
             </li></ul>
         
-        <button class="search__toggle" type="button">
+        <button id="SearchButton" class="search__toggle" type="button">
           <span class="visually-hidden">Toggle search</span>
           <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
             <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
@@ -525,6 +578,46 @@
     <div class="page__related">
       <h4 class="page__related-title">참고</h4>
       <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/til/TIL-20201116/" rel="permalink">2020년 11월 16일(토) TIL
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+
+    
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-clock" aria-hidden="true"></i>
+        
+          최대 1 분 소요
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">포스팅 URL 수정 및 댓글 추가.
+</p>
+  </article>
+</div>
+
         
           
 
