@@ -134,3 +134,13 @@ $(document).ready(function() {
     }
   });
 });
+
+// Facebook tag test
+
+<script>
+  fbq('track', 'ViewContent',  {
+    content_type : 'product',
+    content_ids : ['test123']
+    content_category : 'test' 
+  });
+</script>
