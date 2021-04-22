@@ -116,6 +116,12 @@
 
   function sendEvent() {
     gtag('event', 'click');
+    gtag('event', 'page_view', {
+      page_title: '<Page Tite>',
+      page_location: '<Page Location>',
+      page_path: '<Page Path>',
+      send_to: '<GA_MEASUREMENT_ID>'
+    })
   }
 </script>
 <!-- gtag-->
