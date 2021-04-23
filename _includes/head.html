@@ -122,6 +122,19 @@
       page_path: '<Page Path>',
       send_to: '<GA_MEASUREMENT_ID>'
     })
-  }
+    gtag('event', 'view_conent', {
+      "items": [
+    {
+      "id": "P12345",
+      "name": "Android Warhol T-Shirt",
+      "list_name": "Search Results",
+      "brand": "Google",
+      "category": "Apparel/T-Shirts",
+      "variant": "Black",
+      "list_position": 1,
+      "quantity": 2,
+      "price": 2
+    }]});
+  
 </script>
 <!-- gtag-->
